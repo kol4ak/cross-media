@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb376b47-93eb-4768-86d9-e682fb756bce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/esma/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/esma/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/esma/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/esma/templates/page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/esma/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/esma/template.php" />
     </list>
     <ignored path="cross-media.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3482309">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -449,7 +447,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3482309">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding />
         </state>
       </provider>
