@@ -637,6 +637,66 @@ h2, .h2 {
 		}
 		/*-------Ratings-------*/
 
+			.block-bussiness-style-block-1 tr{
+
+				margin-bottom: 10px;
+				display: block;
+			}
+
+			.block-bussiness-style-block-1 h2 {
+
+				font-family: Myriad Pro ;
+				font-size: 18px;
+				color: #1d1d1b;
+				text-align: left;
+				text-transform: uppercase;
+				border-bottom: 2px solid #999999;
+				margin: 0;
+				margin-bottom: 10px;
+			}
+
+
+
+
+			.block-bussiness-style-block-1 .views-field-field-image {
+
+				width: 220px;
+				height: 100%;
+				float: left;
+			}
+			.block-bussiness-style-block-1 .views-field-title {
+
+				float: left;
+				display: block;
+				min-height: 30px;
+				overflow: hidden;
+				padding-left: 20px;
+			}
+
+			.block-bussiness-style-block-1 .views-field-title a {
+
+				font-family: Myriad Pro ;
+				font-size: 15px;
+				color: #1d1d1b;
+				display: block;
+				line-height: 18px;
+				padding: 0;
+				margin: 0;
+				text-transform: uppercase;
+
+
+			}
+			.block-bussiness-style-block-1  .views-field-body {
+
+				float: left;
+				padding-left: 20px;
+				width: 380px;
+				font-family: Myriad Pro ;
+				font-size: 14px;
+				color: #1d1d1b;
+			}
+
+
 		.block-views-ratings-block h2 {
 
 			font-family: Myriad Pro ;
