@@ -99,7 +99,7 @@ h2, .h2 {
 		}
 		.block-menu-menu-top ul.menu>li>a {
 			font-size: 13px;
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			display: block;
 			color: #1d70b7;
 			
@@ -139,7 +139,7 @@ h2, .h2 {
 		}
 		.block-menu-log-menu ul.menu>li>a {
 			font-size: 13px;
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			display: block;
 			color: #9c9b9b;	
 	
@@ -262,7 +262,7 @@ h2, .h2 {
 		}
 		.block-main-menu ul.menu>li>a {
 			font-size: 18px;
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			text-transform: uppercase;
 			padding-left: 10%;
 			color: #1d1d1b;
@@ -291,7 +291,7 @@ h2, .h2 {
 
 		.view-blog .views-field-title a {
 
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			font-size: 19px;
 			color: #1d1d1b;
 			display: block;
@@ -301,14 +301,14 @@ h2, .h2 {
 		.view-blog .views-field-body {
 		
 			padding-top: 15px;
-			font-family: Myriad Pro;
+			font-family: Tahoma,Geneva,sans-serif;
 			font-size: 15px;
 			color: #1d1d1b;
 
 		}
 		.views-field-comment-count  {
 
-			font-family: Myriad Pro;
+			font-family: Tahoma,Geneva,sans-serif;
 			font-size: 16px;
 			color: #1d70b7;
 
@@ -331,7 +331,7 @@ h2, .h2 {
 
 		.block-experts-block-1 h2 {
 			
-			font-family: Myriad Pro  ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 18px;
 			color: #1d1d1b;
 			padding-bottom: 10px;
@@ -362,7 +362,7 @@ h2, .h2 {
 
 			text-align:center;
 			padding-top: 10px;
-			font-family: Myriad Pro  ;
+			font-family: Tahoma,Geneva,sans-serif  ;
 			font-size: 16px;
 			color: #1d1d1b;
 			font-weight: bold;
@@ -373,7 +373,7 @@ h2, .h2 {
 
 			text-align: center;
 			display: block;
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 14px;
 			color: #1d1d1b;
 			/*padding-top: 10px;*/
@@ -386,7 +386,7 @@ h2, .h2 {
 
 			text-align: center;
 			display: block;
-			font-family: Myriad Pro ;
+			font-family: Tahoma,Geneva,sans-serif ;
 			font-size: 15px;
 			color: #1d1d1b;
 			padding-top: 10px;
@@ -414,7 +414,7 @@ h2, .h2 {
 				}
 
 		.block-system-main 	 .views-field-title a {
-		    font-family: Myriad Pro;
+		    font-family: 'Open Sans',sans-serif;
 		    font-size: 14px;
 		    color: #1d1d1b;
 		    display: block;
@@ -446,7 +446,7 @@ h2, .h2 {
 			padding: 0;
 			margin: 0;
 			vertical-align: top;
-			font-family: Myriad Pro ;
+			font-family: Tahoma,Geneva,sans-serif ;
 			font-size: 14px;
 			color: #1d1d1b;
 		}
@@ -463,7 +463,7 @@ h2, .h2 {
 
 
 				display: block;
-				font-family: Myriad Pro ;
+				font-family: 'Open Sans',sans-serif ;
 				font-size: 14px;
 				color: #1d1d1b;
 			}
@@ -474,7 +474,7 @@ h2, .h2 {
 		
 		td.views-field-field-tag-categories>a {
 
-				font-family: Myriad Pro ;
+				font-family: 'Open Sans',sans-serif ;
 				font-size: 14px;
 				color: #1d70b7;
 		}
@@ -489,14 +489,14 @@ h2, .h2 {
 
 					margin: 0;
 					padding: 0;
-					font-family: Myriad Pro ;
+					font-family: 'Open Sans',sans-serif ;
 					font-size: 37px;
 					color: #1d1d1b;
 					text-transform: uppercase;
 				}
 				.content .field-name-body{
 
-					font-family: Myriad Pro ;
+					font-family: Tahoma,Geneva,sans-serif ;
 					font-size: 15px;
 					color: #1d1d1b;
 					line-height: 20px;
@@ -557,7 +557,7 @@ h2, .h2 {
 
 		.block-news-block-1 .views-field-title a {
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 15px;
 			color: #1d1d1b;
 			display: block;
@@ -575,7 +575,7 @@ h2, .h2 {
 
 		.block-news-block-1  .views-field-field-tag-categories a{
 
-			font-family: Myriad Pro ;
+			font-family: Tahoma,Geneva,sans-serif ;
 			font-size: 14px;
 			color: #1d70b7;
 
@@ -591,22 +591,23 @@ h2, .h2 {
 			border-top: 2px solid #999999;
 			border-bottom: 2px solid #999999 ;
 			margin-bottom: 20px;
-			padding-bottom: 35px;
+			padding-bottom: 15px;
 
 
 		}
 		.block-foto-block h2 {
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 18px;
 			color: #1d1d1b;
 			text-transform: uppercase;
 			padding-left: 100px;
 			padding-bottom: 0px;
+			margin-top: 10px;
 		}
 		.block-foto-block .views-field-title a{
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 15px;
 			color: #1d1d1b;
 			display: block;
@@ -619,7 +620,7 @@ h2, .h2 {
 
 		.block-twitter-block h2 {
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 18px;
 			color: #1d1d1b;
 			text-align: center;
@@ -645,7 +646,7 @@ h2, .h2 {
 
 			.block-bussiness-style-block-1 h2 {
 
-				font-family: Myriad Pro ;
+				font-family: 'Open Sans',sans-serif ;
 				font-size: 18px;
 				color: #1d1d1b;
 				text-align: left;
@@ -675,7 +676,7 @@ h2, .h2 {
 
 			.block-bussiness-style-block-1 .views-field-title a {
 
-				font-family: Myriad Pro ;
+				font-family: 'Open Sans',sans-serif ;
 				font-size: 15px;
 				color: #1d1d1b;
 				display: block;
@@ -691,7 +692,7 @@ h2, .h2 {
 				float: left;
 				padding-left: 20px;
 				width: 380px;
-				font-family: Myriad Pro ;
+				font-family: Tahoma,Geneva,sans-serif ;
 				font-size: 14px;
 				color: #1d1d1b;
 			}
@@ -699,7 +700,7 @@ h2, .h2 {
 
 		.block-views-ratings-block h2 {
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 18px;
 			color: #1d1d1b;
 			text-align: left;
@@ -710,7 +711,7 @@ h2, .h2 {
 
 		.block-views-ratings-block .views-field-title a{
 
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 18px;
 			color: #1d1d1b;
 			display: block;
@@ -723,7 +724,7 @@ h2, .h2 {
 		.block-views-ratings-block .views-field-body {
 
 			display: block;
-			font-family: Myriad Pro ;
+			font-family: Tahoma,Geneva,sans-serif ;
 			font-size: 15px;
 			color: #1d1d1b;
 			line-height: 18px;
@@ -759,12 +760,12 @@ h2, .h2 {
 			margin: 0;
 			padding: 0;
 			float: left;
-			padding-right: 35px;
+			padding-right: 25px;
 
 		}
 		.block-menu-footer-menu ul.menu>li>a, .block-menu-top-menu-page ul.menu>li>a {
 			font-size: 14px;
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			text-transform: uppercase;
 			color: #1d1d1b;
 			display: block;
@@ -796,7 +797,7 @@ h2, .h2 {
 			margin-top: 20px;
 			margin-bottom: 20px;
 			display: block;
-			font-family: Myriad Pro ;
+			font-family: Tahoma,Geneva,sans-serif ;
 			font-size: 15px;
 			color: #1d1d1b;
 			line-height: 18px;

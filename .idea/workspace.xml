@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb376b47-93eb-4768-86d9-e682fb756bce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/esma/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/esma/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright40p.css" afterPath="$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright40p.css" />
     </list>
     <ignored path="cross-media.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,28 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6325411">
-              <caret line="641" column="32" selection-start-line="641" selection-start-column="32" selection-end-line="641" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.85405403">
+              <caret line="605" column="29" selection-start-line="605" selection-start-column="29" selection-end-line="605" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-slideshow-ddblock-cycle-vsdupright0p.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright0p.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.62069">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-slideshow-ddblock-cycle-vsdupright40p.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright40p.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -46,6 +67,7 @@
         <option value="$PROJECT_DIR$/themes/bartik/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/themes/bartik/templates/node.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/esma/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright40p.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/esma/css/global.css" />
       </list>
     </option>
@@ -224,6 +246,28 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -235,10 +279,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28625953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -309,10 +353,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright0p.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.62069">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/views-slideshow-ddblock-cycle-vsdupright40p.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/esma/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6325411">
-          <caret line="641" column="32" selection-start-line="641" selection-start-column="32" selection-end-line="641" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.85405403">
+          <caret line="605" column="29" selection-start-line="605" selection-start-column="29" selection-end-line="605" selection-end-column="29" />
           <folding />
         </state>
       </provider>

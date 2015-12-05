@@ -25,7 +25,7 @@ div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-title-vertical{width:2
 /*div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-title-horizontal{float:left;width:100px;}*/
 div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-title h2{
 				
-			font-family: Myriad Pro ;
+			font-family: 'Open Sans',sans-serif ;
 			font-size: 22px;
 			color: #ffffff;
 			line-height: 28px;
@@ -55,7 +55,7 @@ div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-body-inner a{color:#ff
 /* Slide read more button */
 div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-read-more{width:275px; height:235px ; overflow: hidden;}
 div.views-slideshow-ddblock-cycle-vsdupright40p div.slide-read-more p{
-				font-family: Myriad Pro ;
+				font-family: Tahoma,Geneva,sans-serif ;
 				font-style: 15px;
 				line-height: 18px;
 				padding:0;
@@ -76,7 +76,7 @@ div.views-slideshow-ddblock-cycle-vsdupright40p div.custom-pager{width:340px; fl
 div.views-slideshow-ddblock-cycle-vsdupright40p div.custom-pager-inner{height:100%}
 div.views-slideshow-ddblock-cycle-vsdupright40p div.custom-pager-inner a{
 			font-size: 14px;
-			font-family: Myriad Pro;
+			font-family: 'Open Sans',sans-serif;
 			text-transform: uppercase;
 			padding: 0;
 			margin: 0;
