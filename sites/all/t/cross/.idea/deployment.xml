@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="cross-media.org.ua">
+    <serverData>
+      <paths name="cross">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/cross.biz.ua/www/sites/all/themes/cross" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cross-media.org.ua">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/cross-media.org.ua/www/sites/all/themes/cross" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

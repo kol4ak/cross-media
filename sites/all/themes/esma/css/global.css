@@ -1,0 +1,737 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  
+     padding-right: 10px; 
+     padding-left: 10px; 
+	     }
+h2, .h2 {
+    font-size: 20px;
+}
+/***------------------------------------HEADER------------------------------------------***/
+	/**------------------------Zone Header--------------------------------------------**/
+
+	.zone-header-wrapper{
+
+		height: 100%;
+		padding: 0;
+		margin: 0;
+		padding-top: 50px;
+		padding-bottom: 5px;
+		background-color:#cc3333;
+	}
+
+		.logo-img{
+
+			margin: 0;
+			padding: 0;
+		}
+
+		.region-date{
+			
+			padding: 0;
+			margin: 0;
+			margin-top: 25px;
+
+		}
+		.block-block-8 {
+
+			padding: 0;
+			margin: 0;
+			padding-top: 10px;
+		}
+
+		
+		/*-------Rates-------*/
+		.region-rates {
+
+			margin-left: 70px;
+			margin-bottom: 5px;
+		}
+		.block-block-7 {
+
+			margin: 0;
+			padding: 0;
+			
+			display: block;
+			float: right;
+
+		}
+	/**---------------------Zone Top Menu-------------------------------------------**/
+	.region-menu-top-inner {
+
+		margin-bottom: 40px;
+		position: relative;
+	}
+
+		/*-------SocMenu-------*/
+		.block-menu-menu-top {
+
+			float: left;
+			width: 70%;
+		}
+		
+		.block-menu-menu-top ul.menu {
+
+			margin: 0;
+			padding: 0;
+			
+		}
+
+		.block-menu-menu-top ul.menu li{
+		
+			list-style-type: none;
+			display: block;
+			margin: 0;
+			padding: 0;
+			float: left;
+			padding-right: 10px;
+			padding-left: 10px;
+			border-right: 1px solid #1d70b7;
+
+		}
+		.block-menu-menu-top ul.menu>li>a {
+			font-size: 13px;
+			font-family: Myriad Pro;
+			display: block;
+			color: #1d70b7;
+			
+	
+		}
+		.block-menu-menu-top ul.menu li.last{
+
+			border-right: none;
+		}
+
+		/*------Login Menu-------*/
+
+		.block-menu-log-menu{
+
+			width: 30%;
+			float: right;
+		}
+		.block-menu-log-menu ul.menu {
+
+			margin: 0;
+			padding: 0;
+			padding-left: 120px;
+
+			
+		}
+
+		.block-menu-log-menu ul.menu li{
+		
+			list-style-type: none;
+			display: block;
+			margin: 0;
+			padding: 0;
+			padding-right: 3px;
+			float: left;
+			
+
+		}
+		.block-menu-log-menu ul.menu>li>a {
+			font-size: 13px;
+			font-family: Myriad Pro;
+			display: block;
+			color: #9c9b9b;	
+	
+		}
+	/**---------------------Zone Slider-------------------------------------------**/
+		
+		/*-------Top video-------*/
+/*
+		.block-video-block {
+
+			background-color: #333333;
+			position: relative;
+
+		}
+		.view-id-video{}
+
+		.player {
+
+			position: absolute;
+			top: 0;
+			left: 335px;
+			z-index: 3;
+		}
+		.view-id-video .item-list {
+
+			position: absolute;
+			top: 380px;
+			left: 600px;
+			z-index: 5;
+			width: 100%;
+		}
+
+		.view-slide-news .container-inner {
+
+			padding-bottom: 0px;
+		}
+
+		.view-id-video .item-list .pager-current{
+
+			display: none;
+		}
+
+		.pager li > a, .pager li > span {
+		    display: inline-block;
+		    padding: 0;
+		    background-color: inherit;
+		    border: none;
+		    border-radius: 0;
+		}
+
+		.pager li > a:hover{
+
+			opacity: 0.7;
+			background: inherit;
+		}
+		.view-id-video .item-list  li {
+			float: left;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.view-id-video .item-list  li.pager-previous:empty{
+
+			background-image: url(../img/prev.png) ;
+			height: 50px;
+			width: 50px;
+			position: relative;
+			display: block;
+		}
+		
+		.view-id-video .item-list  li.pager-previous>a{
+
+			background-image: url(../img/prev.png) ;
+			height: 50px;
+			width: 50px;
+			position: relative;
+			display: block;
+		}
+		.view-id-video .item-list  li.pager-next:empty{
+
+			background-image: url(../img/next.png) ;
+			height: 50px;
+			width: 50px;
+			position: relative;
+			display: block;
+		}
+		.view-id-video .item-list  li.pager-next>a{
+
+			background-image: url(../img/next.png) ;
+			height: 50px;
+			width: 50px;
+			position: relative;
+			display: block;
+		}
+	
+	*/
+
+	/**---------------------Zone Top-content-------------------------------------------**/
+
+		.zone-top-content {
+
+			/*margin-top: 35px;*/
+		}
+
+		/*-------Main manu-------*/
+
+		.block-main-menu ul.menu {
+
+			margin: 0;
+			padding: 0;
+		}
+
+		.block-main-menu ul.menu li{
+		
+			list-style-type: none;
+			display: block;
+			margin: 0;
+			padding: 0;
+
+		}
+		.block-main-menu ul.menu>li>a {
+			font-size: 18px;
+			font-family: Myriad Pro;
+			text-transform: uppercase;
+			padding-left: 10%;
+			color: #1d1d1b;
+			display: block;
+			padding-top: 5px;
+			padding-bottom: px;
+		}
+		.block-main-menu ul.menu>li>a:hover{
+
+			background-color: #cc3333;
+			color: white;
+			text-decoration: none;
+		}
+		.block-main-menu ul.menu>li>a.active{
+			
+			background-color: #cc3333;
+			color: white;
+			text-decoration: none;
+		}
+		
+		/*-------Blog-------*/
+		.row {
+
+			margin-top: 15px;
+		}
+
+		.view-blog .views-field-title a {
+
+			font-family: Myriad Pro;
+			font-size: 19px;
+			color: #1d1d1b;
+			display: block;
+			padding-top: 15px;
+
+		}
+		.view-blog .views-field-body {
+		
+			padding-top: 15px;
+			font-family: Myriad Pro;
+			font-size: 15px;
+			color: #1d1d1b;
+
+		}
+		.views-field-comment-count  {
+
+			font-family: Myriad Pro;
+			font-size: 16px;
+			color: #1d70b7;
+
+		}
+
+/***------------------------------------CONTENT------------------------------------------***/	
+
+	/**---------------------Zone Content-----------------------------------------------**/
+
+	.zone-content {
+
+		margin-top: 20px;
+	}
+
+		/**-------Sidebar-first-------**/
+	
+		.block-experts-block-1 {
+			background-color: #e5e5e5;
+		}
+
+		.block-experts-block-1 h2 {
+			
+			font-family: Myriad Pro  ;
+			font-size: 18px;
+			color: #1d1d1b;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-left: 20%;
+			margin-right: 20%;
+			text-transform: uppercase;
+			border-bottom: 2px solid #999999;
+			text-align: center;
+
+		}
+		.block-experts-block-1 .views-field-field-image img{
+
+			margin-left: 25%;
+			margin-right: 25%;
+			margin-top: 15px;
+			padding: 0;
+
+		}
+		.views-field-field-expert {
+
+			text-align:center;
+			padding-top: 10px;
+			font-family: Myriad Pro  ;
+			font-size: 16px;
+			color: #1d1d1b;
+			font-weight: bold;
+			text-transform: uppercase;
+
+		}
+		.block-experts-block-1 .views-field-title a{
+
+			text-align: center;
+			display: block;
+			font-family: Myriad Pro ;
+			font-size: 16px;
+			color: #1d1d1b;
+			padding-top: 10px;
+			text-transform: uppercase;
+			margin-left: 25%;
+			margin-right: 25%;
+
+		}
+		.block-experts-block-1 .views-field-body {
+
+			text-align: center;
+			display: block;
+			font-family: Myriad Pro ;
+			font-size: 15px;
+			color: #1d1d1b;
+			padding-top: 10px;
+			margin-left: 20%;
+			margin-right: 20%;
+			border-bottom: 2px solid #999999;
+			line-height: 18px;
+		}
+		.block-experts-block-1 .row-last .views-field-body {
+
+			border-bottom: none;
+		}
+
+		/*-------Banner-------*/
+		.block-block-6 {
+
+			overflow: hidden;
+		}
+
+
+		/*-------Content-------*/
+		td {
+
+			vertical-align:top;
+				}
+
+		.block-system-main 	 .views-field-title a {
+		    font-family: Myriad Pro;
+		    font-size: 14px;
+		    color: #1d1d1b;
+		    display: block;
+		    padding-top: 10px;
+		}
+		
+		.block-system-main td {
+
+			vertical-align:top;
+			margin-top:10px;
+			padding-right: 15px;
+			
+	        }
+
+
+		.views-table tbody{
+
+			border-top: none;
+
+		}
+
+		.views-table tr{
+			border-bottom: none;
+			border-top: none;
+			background-color: white;
+		}
+		td.views-field-created{
+
+			padding: 0;
+			margin: 0;
+			vertical-align: top;
+			font-family: Myriad Pro ;
+			font-size: 14px;
+			color: #1d1d1b;
+		}
+		td.views-field-title {
+
+			padding: 0;
+			margin: 0;
+			padding-left: 10px;
+			padding-bottom: 15px;
+			vertical-align: top;
+			}
+
+		td.views-field-title>a{
+
+
+				display: block;
+				font-family: Myriad Pro ;
+				font-size: 14px;
+				color: #1d1d1b;
+			}
+		td.views-field-field-tag-categories {
+
+				vertical-align: top;
+		}
+		
+		td.views-field-field-tag-categories>a {
+
+				font-family: Myriad Pro ;
+				font-size: 14px;
+				color: #1d70b7;
+		}
+			/*-------region-cont-node-------*/
+
+				.content {
+					
+					overflow: hidden;
+				}
+
+				h2.title  {
+
+					margin: 0;
+					padding: 0;
+					font-family: Myriad Pro ;
+					font-size: 37px;
+					color: #1d1d1b;
+					text-transform: uppercase;
+				}
+				.content .field-name-body{
+
+					font-family: Myriad Pro ;
+					font-size: 15px;
+					color: #1d1d1b;
+					line-height: 20px;
+				}
+
+			/*-------region-foto-content-------*/
+
+			.field-name-field-fotos {
+
+				margin: 0;
+				padding: 0;
+				position: relative;
+				margin-top: 10px;
+
+
+			}
+			
+			.field-name-field-fotos .field-item{
+				float: left;
+				margin: 0;
+				padding: 0;
+				margin-left: 15px;
+				margin-bottom: 15px;
+
+
+			}
+			
+			.field-name-field-fotos .field-item:hover {
+
+				outline: 3px solid  #cc3333;
+			}
+
+		
+		/*-------Sidebar-second-------*/
+	
+		.block-news-block-1 tr{
+
+			margin-bottom: 20px;
+			display: block;
+		}
+
+
+
+		.block-news-block-1 .views-field-field-image {
+
+			width: 160px;
+			float: left;
+		}
+		.block-news-block-1 .views-field-title {
+
+			float: left;
+			display: block;
+			width: 60%;
+			min-height: 30px;
+			overflow: hidden;
+			padding-left: 20px;
+		}
+
+		.block-news-block-1 .views-field-title a {
+
+			font-family: Myriad Pro ;
+			font-size: 15px;
+			color: #1d1d1b;
+			display: block;
+			line-height: 18px;
+
+
+		}
+		.block-news-block-1  .views-field-field-tag-categories {
+
+			float: left;
+			padding-left: 20px;
+			padding-top: 5px;
+
+		}
+
+		.block-news-block-1  .views-field-field-tag-categories a{
+
+			font-family: Myriad Pro ;
+			font-size: 14px;
+			color: #1d70b7;
+
+		}
+
+/***------------------------------------FOOTER------------------------------------------***/
+	/**---------------------Zone Bottom-Content-----------------------------------------------**/
+		
+		/*-------Foto-------*/
+			
+		.block-foto-block {
+
+			border-top: 2px solid #999999;
+			border-bottom: 2px solid #999999 ;
+			margin-bottom: 20px;
+			padding-bottom: 35px;
+
+
+		}
+		.block-foto-block h2 {
+
+			font-family: Myriad Pro ;
+			font-size: 18px;
+			color: #1d1d1b;
+			text-transform: uppercase;
+			padding-left: 100px;
+			padding-bottom: 0px;
+		}
+		.block-foto-block .views-field-title a{
+
+			font-family: Myriad Pro ;
+			font-size: 15px;
+			color: #1d1d1b;
+			display: block;
+			line-height: 18px;
+			text-transform: uppercase;
+			padding-top: 20px;
+		}
+
+		/*-------Twitter-------*/
+
+		.block-twitter-block h2 {
+
+			font-family: Myriad Pro ;
+			font-size: 18px;
+			color: #1d1d1b;
+			text-align: center;
+			margin-left: 20%;
+			margin-right: 20%;
+			text-transform: uppercase;
+			border-bottom: 2px solid #999999;
+			padding-bottom: 0px;
+		}
+
+		/*-------Ratings-------*/
+		.block-block-2 {
+
+			overflow: hidden;
+		}
+		/*-------Ratings-------*/
+
+		.block-views-ratings-block h2 {
+
+			font-family: Myriad Pro ;
+			font-size: 18px;
+			color: #1d1d1b;
+			text-align: left;
+			text-transform: uppercase;
+			border-bottom: 2px solid #999999;
+			padding-bottom: 0px;
+		}
+
+		.block-views-ratings-block .views-field-title a{
+
+			font-family: Myriad Pro ;
+			font-size: 18px;
+			color: #1d1d1b;
+			display: block;
+			line-height: 23px;
+			text-transform: uppercase;
+			font-weight: bold;
+			
+		}
+		
+		.block-views-ratings-block .views-field-body {
+
+			display: block;
+			font-family: Myriad Pro ;
+			font-size: 15px;
+			color: #1d1d1b;
+			line-height: 18px;
+		}
+
+
+	/**---------------------Zone Bottom-----------------------------------------------**/
+		.zone-footer-wrapper {
+
+			background-color: #b1b1b1;
+		}
+
+
+		/*-------FOOTER manu-------*/
+
+		.block-menu-footer-menu ul.menu  {
+
+			margin: 0;
+			padding: 0;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+
+		.block-menu-top-menu-page ul.menu {
+			margin: 0;
+			padding: 0;
+		}
+
+		.block-menu-footer-menu ul.menu li, .block-menu-top-menu-page ul.menu li{
+		
+			list-style-type: none;
+			display: block;
+			margin: 0;
+			padding: 0;
+			float: left;
+			padding-right: 35px;
+
+		}
+		.block-menu-footer-menu ul.menu>li>a, .block-menu-top-menu-page ul.menu>li>a {
+			font-size: 14px;
+			font-family: Myriad Pro;
+			text-transform: uppercase;
+			color: #1d1d1b;
+			display: block;
+			
+	
+		}
+
+		.block-menu-top-menu-page ul.menu>li>a.active {
+
+			text-decoration: underline;
+
+
+		}
+		/*.block-menu-footer-menu ul.menu>li>a:hover{
+
+			background-color: #cc3333;
+			color: white;
+			text-decoration: none;
+		}*/
+		/*.block-menu-footer-menu ul.menu>li>a.active{
+			
+			background-color: #cc3333;
+			color: white;
+			text-decoration: none;
+		}
+*/
+		.block-block-5 {
+
+			margin-top: 30px;
+			display: block;
+			font-family: Myriad Pro ;
+			font-size: 15px;
+			color: #1d1d1b;
+			line-height: 18px;
+		}
+
+

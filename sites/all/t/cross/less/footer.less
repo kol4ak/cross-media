@@ -1,0 +1,16 @@
+﻿@page_width: 960px;
+@footer_height: 100px;
+
+﻿#main-wrapper:after {
+  height: @footer_height;
+}
+#footer-wrapper {
+  margin: -@footer_height 0 0 0;
+  position: relative;
+}
+#footer {
+  width: @page_width;
+  margin: 0 auto;
+  height: @footer_height  ;
+  position: relative;
+}

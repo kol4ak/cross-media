@@ -1,0 +1,92 @@
+<?php
+
+/**
+ * An implementation of hook_theme_registry_alter()
+ * Substitute our own custom version of the standard 'theme_form_element' function.
+ * If the theme has overridden it, we'll be bypassed, but in most cases this will
+ * work nicely..
+ *
+ * @return void
+ **/
+function wp_comments_theme_registry_alter(&$theme_registry) {
+  if (!empty($theme_registry['form_required_marker'])) {
+    $theme_registry['form_required_marker']['function'] = 'wp_comments_form_required_marker';
+  }
+}
+
+
+
+/**
+ * An implementation of hook_form_alter()
+ * Tweak the comment form, and add the #wp_comments_element flag to any textareas
+ * so the required tag can be changed. All other shuffling happens here..
+ *
+ * @return void
+ **/
+function wp_comments_form_alter(&$form, &$form_state, $form_id) {
+
+  if ($form['#id'] == 'comment-form') {
+    foreach (element_children($form) as $key) {
+
+      if (isset($form[$key]) && isset($form[$key]['#type']) && $form[$key]['#type'] == 'textfield') {
+        $form[$key]['#wp_comments_element'] = TRUE;
+        $form[$key]['#title_display'] = 'after';
+        $form[$key]['#description'] = '';
+        $form[$key]['#size'] = 40;
+      }
+    }
+
+    if (isset($form['author'])) {
+      foreach (element_children($form['author']) as $key) {
+
+        if (isset($form['author'][$key]) && isset($form['author'][$key]['#type']) && $form['author'][$key]['#type'] == 'textfield') {
+          $form['author'][$key]['#wp_comments_element'] = TRUE;
+          $form['author'][$key]['#title_display'] = 'after';
+          $form['author'][$key]['#description'] = '';
+          $form['author'][$key]['#size'] = 40;
+        }
+      }
+
+      if (isset($form['author']['_author'])) {
+        $form['author']['_author']['#type'] = 'markup';
+        $form['author']['_author']['#markup'] = t('Logged in as !user.', array('!user' => $form['author']['_author']['#markup']));
+      }
+    }
+
+    $lang = $form['language']['#value'];
+
+
+
+    foreach ($form['comment_body'][$lang] as $key => $value) {
+      if (is_numeric($key)) {
+        $form['comment_body'][$lang][$key]['#rows'] = 10;
+        unset($form['comment_body'][$lang][$key]['#title']);
+      }
+    }
+  }
+}
+
+/**
+ * A hacked version of theme_form_required_marker()
+ *
+ * This version will check to see if it is a one of the fields we want to alter.
+ * If it is, we will change the required marker from an asterisk to 'required'
+ *
+ * @return A formatted span class.
+ **/
+function wp_comments_form_required_marker($vars) {
+
+  if (empty($vars['element']['#wp_comments_element'])) {
+    $text = '*';
+  }
+  else {
+    $text = '(' . t('required') . ')';
+  }
+
+  $attributes = array(
+    'class' => 'form-required',
+    'title' => t('This field is required.'),
+  );
+
+  return '<span' . drupal_attributes($attributes) . '>' . $text . '</span>';
+}

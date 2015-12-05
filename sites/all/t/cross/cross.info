@@ -1,0 +1,19 @@
+name = Cross
+description = Тема разработана для media-cross
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = s/style1.css
+scripts[] = js/my.js
+
+regions[header] = Шапка сайта
+regions[top_content] = Перед контентом
+regions[sidebar_first] = Левая колонка
+regions[sidebar_second] = Правая колонка
+regions[content] = Содержание
+regions[footer] = Футер
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom

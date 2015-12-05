@@ -1,0 +1,50 @@
+ul.tabs
+{
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0 0 20px 0;
+    padding: 4px 0 0 4px;
+    border-bottom: 1px solid #C5C5C5;
+}
+ 
+ul.tabs li
+{
+    margin: 0 0 0 4px;
+    padding: 0;
+    border: 0;
+}
+ 
+ul.tabs li a:link,
+ul.tabs li a:visited
+{
+    display: inline;
+    background: #F7F7F7;
+    color: #BBBBBB;
+    border: 1px solid #C5C5C5;
+    border-top-left-radius: 3px; -moz-border-radius-topleft: 3px;
+    border-top-right-radius: 3px; -moz-border-radius-topright: 3px;
+    padding: 2px 9px 2px 10px;
+    margin: 0;
+}
+ 
+ul.tabs li a:hover,
+ul.tabs li a:active
+{
+    color: #5F5F5F;
+    background: #F9F9F9;
+}
+ 
+ul.tabs li a.active:link,
+ul.tabs li a.active:visited
+{
+    border-bottom-color: white;
+    background: transparent;
+    color: #515151;
+}
+ 
+ul.tabs.secondary
+{
+    position: relative;
+    top: -10px;
+}

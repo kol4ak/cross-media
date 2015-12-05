@@ -1,0 +1,98 @@
+﻿/*#add-space { height: 50px; }
+#footer-wrapper { margin: -50px 0 0 0; position: relative; }
+#footer { width: 960px; margin: 0 auto; height: 50px; position: relative; }
+*/
+
+#footer-wrapper {
+    position: relative;
+    height:120px;
+    outline:0px solid red;
+    background-color: #999999;
+    margin-top:20px;
+}
+#footer {
+    position: relative;
+}
+#block-block-3 {
+    height:30px;
+    width:140px;
+    position: absolute;
+    background: url('../i/logo2.png');
+    outline:0px solid red;
+    top:40px;
+}
+#block-block-4 {
+    position: absolute;
+    width:630px;
+    height:10px;
+    top:60px;
+    margin-left:210px;
+}
+#block-block-4 p{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font: 9px  Myriad Pro,Tahoma, Arial, Helvetica, serif;
+    outline:px solid red;
+    margin-left: 10px;
+}
+#block-block-2{
+    position:absolute;
+    margin-left:860px;
+    top:35px;
+
+}
+#block-block-2 p{
+    color:white;
+    text-decoration: none;
+    display: block;
+    font: 12px  Myriad Pro,Tahoma, Arial, Helvetica,serif;
+    outline:px solid red;
+}
+#block-menu-menu-menufooter {
+    outline: 0px dotted red;
+    position:absolute;
+    top: 0px;
+    margin:0px;
+    height: 10px;
+    width:630px;
+    top:40px;
+    background-color: #999999;
+    margin-left:210px;
+}
+#block-menu-menu-menufooter li {
+    float: left;
+    height:10px
+}
+#block-menu-menu-menufooter  li a {
+    color: #ffffff;
+    text-decoration: none;
+    font: 12px  Myriad Pro,Tahoma, Arial, Helvetica, sans-serif;
+    padding-top: 0px ;
+    padding-right: 10px ;
+    padding-left: 10px ;
+    padding-bottom: 0px ;
+    border-right: 1px solid white;
+    outline:px solid red;
+}
+
+/*----------------- COUNTERS ----------*/
+#block-block-12 {
+    position: absolute;
+    left:970px;
+
+}
+#block-block-13 {
+    position: absolute;
+    left: 882px;
+    top:89px;
+}
+.ym-counter {
+    display:none ;
+}
+#block-block-14 {
+    position: absolute;
+    left:790px;
+    top:89px;
+
+}
