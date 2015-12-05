@@ -334,19 +334,26 @@ h2, .h2 {
 			font-family: Myriad Pro  ;
 			font-size: 18px;
 			color: #1d1d1b;
-			padding-top: 10px;
 			padding-bottom: 10px;
 			margin-left: 20%;
 			margin-right: 20%;
+			margin-bottom: 0;
 			text-transform: uppercase;
 			border-bottom: 2px solid #999999;
 			text-align: center;
+			display: block;
 
 		}
+
+		.block-experts-block-1 table{
+
+			width: 180px;
+			margin:0 auto;
+			padding: 0;
+		}
+
 		.block-experts-block-1 .views-field-field-image img{
 
-			margin-left: 25%;
-			margin-right: 25%;
 			margin-top: 15px;
 			padding: 0;
 
@@ -367,12 +374,12 @@ h2, .h2 {
 			text-align: center;
 			display: block;
 			font-family: Myriad Pro ;
-			font-size: 16px;
+			font-size: 14px;
 			color: #1d1d1b;
-			padding-top: 10px;
+			/*padding-top: 10px;*/
+			padding-bottom: 10px;
+			border-bottom: 2px solid #999999;
 			text-transform: uppercase;
-			margin-left: 25%;
-			margin-right: 25%;
 
 		}
 		.block-experts-block-1 .views-field-body {
@@ -388,7 +395,7 @@ h2, .h2 {
 			border-bottom: 2px solid #999999;
 			line-height: 18px;
 		}
-		.block-experts-block-1 .row-last .views-field-body {
+		.block-experts-block-1 .row-last .views-field-title a {
 
 			border-bottom: none;
 		}
