@@ -10,6 +10,11 @@
   <?php endif; ?>
   
   <?php if (isset($page['content'])) : ?>
+    <?php if ($tabs): ?>
+      <div class="tabs">
+        <?php print render($tabs); ?>
+      </div>
+    <?php endif; ?>
     <?php print render($page['content']); ?>
   <?php endif; ?>  
   
