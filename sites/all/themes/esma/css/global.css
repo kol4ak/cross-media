@@ -23,8 +23,7 @@ h2, .h2 {
 		height: 100%;
 		padding: 0;
 		margin: 0;
-		padding-top: 50px;
-		padding-bottom: 5px;
+		padding-top: 10px;
 		background-color:#cc3333;
 	}
 
@@ -32,38 +31,52 @@ h2, .h2 {
 
 			margin: 0;
 			padding: 0;
-		}
-
-		.region-date{
-			
-			padding: 0;
-			margin: 0;
-			margin-top: 25px;
 
 		}
-		.block-block-8 {
+
+		.block-block-8 .content {
 
 			padding: 0;
 			margin: 0;
-			padding-top: 10px;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 12px;
+			text-transform: uppercase;
+			display: block;
+			height: 25px;
+
 		}
 
 		
 		/*-------Rates-------*/
 		.region-rates {
 
-			margin-left: 70px;
-			margin-bottom: 5px;
+
 		}
 		.block-block-7 {
 
 			margin: 0;
 			padding: 0;
-			
+			margin-top: -10px;
+			padding-bottom: 20px;
 			display: block;
-			float: right;
+			float: left;
 
 		}
+
+		.block-block-7 tbody{
+			border:none;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 12px;
+		}
+		.block-block-7 th{
+			border:none;
+			padding:0 10px;
+			text-align: center;
+			font-weight: normal;
+		}
+
 	/**---------------------Zone Top Menu-------------------------------------------**/
 	.region-menu-top-inner {
 
