@@ -385,15 +385,17 @@ h2, .h2 {
 		}
 		.block-experts-block-1 .views-field-title a{
 
-			text-align: center;
+			text-align: left;
 			display: block;
 			font-family: 'Open Sans',sans-serif ;
-			font-size: 14px;
+			font-size: 15px;
 			color: #1d1d1b;
+			line-height: 18px;
+			text-transform: none;
 			/*padding-top: 10px;*/
 			padding-bottom: 10px;
 			border-bottom: 2px solid #999999;
-			text-transform: uppercase;
+
 
 		}
 		.block-experts-block-1 .views-field-body {
